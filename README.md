@@ -16,9 +16,13 @@ Main objectives:
 
 <img width="972" height="766" alt="Graph - Race 1 Time taken for  Empress each Lap" src="https://github.com/user-attachments/assets/6b55ab34-d4f9-4281-9608-72e822650a80" />
 
+<img width="960" height="756" alt="Graph - Race 1 Percentage Change from Lap 1" src="https://github.com/user-attachments/assets/5b864a83-fd4e-435a-ba08-a42814256527" />
+
 <img width="966" height="782" alt="Graph - Race 2 Speed of Empress each Lap" src="https://github.com/user-attachments/assets/966ac88d-1f6f-4c0d-b033-3d4d2ac33f49" />
 
 <img width="998" height="786" alt="Graph - Race 2 Time Taken for Empress to Complete Each Lap" src="https://github.com/user-attachments/assets/a5c16935-f631-43c8-84e2-2c626739131c" />
+
+<img width="960" height="772" alt="Graph - Race 2 Percentage Change from Lap 1" src="https://github.com/user-attachments/assets/c3aed69a-62f9-4e6e-9cd5-22973360b4dd" />
 
 **Race 1:**
 
@@ -36,6 +40,15 @@ One area of note is the sharp drop-off in speed during the final three laps rath
 
 Empress' performance declined. The speed was quite consistent in the first section, but in the final laps it decreased sharply.
 
+**Conclusions from Graph titled "Race 1: Percentage Change from Lap 1":**
+
+The percentage change in lap time remains quite consistent around 0% to 5% for the first 4 laps and laps 6 to 8, despite a spike of around 37% on lap 5, which is likely due to a pit change. On lap 9 out of 11, the
+percentage change increases sharply to around 49%, drops to 22% on lap 10, and then rises significantly to 141% on lap 11. This means the final lap took more than twice as long as lap 1.
+
+Therefore, Empress maintained a relatively consistent performance for most of the first 8 laps, apart from lap 5. However, performance declined significantly towards the end of the race, particularly in the final three laps.
+
+This supports the team's observations that the batteries were struggling towards the end of the race, although further investigation is needed to confirm the cause.
+
 **Race 2:**
 
 **Conclusions from Graph titled "Race 2: Time Taken for Empress to Complete Each Lap":**
@@ -50,6 +63,12 @@ The speed of the car is quite constant around 11.1 m/s to 11.3 m/s until lap 5 o
 
 Therefore, Empress' performance declined and was inconsistent compared to the start of the race, ending early at 10 laps before finishing the full race distance.
 
+**Conclusions from Graph titled "Race 2: Percentage Change from Lap 1":**
+
+The percentage change in lap time remains close to 0% for the first 4 laps, showing that Empress maintained a consistent performance at the start of the race. However, on lap 5 out of 10, the percentage change jumps to around 37%, increases slightly to 42% on lap 6, and then drops to around 32% on lap 7. On lap 8, there is a massive anomaly where the percentage change reaches approximately 470%, corresponding to the lap time of over 32 minutes. The percentage change then drops to around 19% on lap 9 and 17% on lap 10.
+
+Therefore, Empress' performance declined much earlier in Race 2 compared to Race 1. Unlike Race 1, where lap times returned close to their initial values after lap 5, Race 2 continued to have noticeably longer lap times from lap 5 onwards. This could suggest that something happened during the pit stop which affected the car's performance. However, the reason for the unusually long lap 8 and the possible electrical issues still need to be investigated.
+
 **Overall analysis:**
 
 **Which race did Empress have a better performance in and why?**
@@ -58,9 +77,14 @@ Empress performed better in Race 1.
 
 In Race 1, Empress completed 11 laps and placed 30th, maintaining a consistent speed of around 10.7 - 11.3 m/s for 7 of the first 8 laps. 
 
-In Race 2, the speed dropped much earlier (by lap 5), suffered a massive 32-minute delay on lap 8, only completed 10 laps, and resulted in a disqualification.
+In Race 2, the speed dropped much earlier (by lap 5), suffered a massive 32-minute delay on lap 8, only completed 10 laps.
 
 Furthermore, because the average lap speed across the whole 90-minute window is skewed by the car stopping early at around 45 minutes with flat batteries, looking at the individual lap consistency shows Race 1 was much smoother.
+
+Comparing both Percentage Change from Lap 1 graphs, Empress maintained a more consistent performance in Race 1, with most of the first 8 laps remaining close to the initial lap time. In Race 2, performance declined earlier and remained less consistent after lap 5.
+
+One area of note is that both races show a noticeable increase in lap time on lap 5, suggesting that pit stops may have affected performance. However, Race 1 recovered almost immediately, while Race 2 continued to show slower lap times. This makes it worth investigating whether the electrical system, particularly the porterbox or wiring, could have contributed to the differences in performance between the two races.
+
 
 **What was the cause of reduction in speed in both races?**
 
@@ -73,9 +97,10 @@ Additionally, as noted in previous race reflections, the car's overall speed is 
 After consulting with the team, here are some next steps we would like to move forward with. 
 
 - Strip and test the electrics: Remove the electrical components from Empress to test the motor and porter box, checking specifically for rust in the motor that may be causing excessive resistance and draining the 40Amp batteries in 45 minutes.
+
+- Investigate the porterbox: Discuss with Mr Bamford whether the porterbox could be contributing to the battery draining quickly, particularly when entering and leaving the pits. Although the porterbox is considered fairly robust, it has previously required resoldering and silicone repairs, suggesting there may be an electrical fault. Ask Mr Bamford (Head of Greenpower Club) for his opinion on whether the porterbox should be tested or replaced, as replacing it may be a relatively inexpensive solution.
+
+- Ask Mr Bamford as a team for some of his time to analyse this information and look to possible reasons as we are quite sure something is going wrong in the electrics. We would like to suggest a complete rewire since it’s unlikely to be the motor (we have tried 2 now).
   
 - Data logging: Fit or check the eChook data logger before the next season so we can monitor voltage and current draw in real time and catch battery drain before the car dies on track.
 
-**Extra notes:**
-
-- Confirm Race 2 anomalies: Check with the team members who attended Goodwood to confirm what caused the disqualification in Race 2 and the reason behind the 32-minute lap time spike on lap 8.
